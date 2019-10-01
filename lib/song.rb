@@ -31,6 +31,7 @@ class Song
     @@genres.each do |v|
       b[v] += 1
     end
+    b
   end
 
 end
