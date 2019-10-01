@@ -27,11 +27,11 @@ class Song
   end
 
   def self.genre_count
-    hash = Hash.new(0)
+    b = Hash.new(0)
     a.each do |v|
       b[v] += 1
     end
-    hash
+    b
     end
   end
 
