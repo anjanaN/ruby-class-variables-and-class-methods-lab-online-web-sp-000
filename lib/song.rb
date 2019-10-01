@@ -31,7 +31,7 @@ class Song
     a.each do |v|
       b[v] += 1
     end
-
+    hash
     end
   end
 
